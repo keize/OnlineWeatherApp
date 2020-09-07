@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Weather Checker</string>
+    <string name="weather_hint">Enter your location…</string>
+
+    <!-- Response. -->
+
+    <string name="OK">onResponse</string>
+    <string name="Failure">onFailure</string>
+
+    <!-- Buttons. -->
+    <string name="ButtonSearch">Search</string>
+
+    <!-- Example Layout. -->
+
+    <string name="Degrees">15</string>
+    <string name="City">Kharkiv</string>
+    <string name="Description">Sunny</string>
+    
+</resources>

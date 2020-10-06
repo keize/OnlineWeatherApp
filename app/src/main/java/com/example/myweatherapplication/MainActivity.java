@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
     private String TAG = "WEATHER";
     private TextView tvTemp;
+
     private ImageView tvImage;
     private TextView tvLocation;
     private Button buttonSearch;

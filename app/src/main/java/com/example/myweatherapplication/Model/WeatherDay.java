@@ -34,20 +34,24 @@ public class WeatherDay {
     private long timestamp;
 
     public WeatherDay(WeatherTemp temp, WeatherDescription description) {
+
         this.temp = temp;
     }
 
 
     public String getTemp() {
+
         return String.valueOf(temp.temp);
     }
 
     public String getDescription() {
+
         return weatherDescriptions.get(0).description;
     }
 
 
     public String getTempWithDegree() {
+
         return String.valueOf(temp.temp.intValue()) + "\u00B0";
     }
 
@@ -64,6 +68,7 @@ public class WeatherDay {
     }
 
     public List<WeatherDescription> getWeatherDescriptions() {
+
         return weatherDescriptions;
     }
 }
